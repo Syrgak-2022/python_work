@@ -28,4 +28,9 @@
 #     print("We need to ind some users.")
 
 
-
+cars = []
+if cars:
+    for cars in cars:
+        print(f"{cars}")
+else:
+    print(f"Out of service")
