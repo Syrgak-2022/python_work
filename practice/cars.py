@@ -60,9 +60,17 @@
 # else:
 #     print("Great! Grey - my favourite paint")
 
-cars = ['bmw', 'kia', 'lada', 'dodge', 'audi']
-car = 'granta'
-if car not in cars:
-    print(f"{car} not included")
-else:
-    print(f"{car} included")
+# cars = ['bmw', 'kia', 'lada', 'dodge', 'audi']
+# car = 'granta'
+# if car not in cars:
+#     print(f"{car} not included")
+# else:
+#     print(f"{car} included")
+
+
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+
+print("\nIs car == 'audi'? I predict False")
+print(car == 'audi')
