@@ -69,15 +69,31 @@
 
 
 
-car = {'x_position': 0, 'y_position': 30, 'speed': 'fast'}
-print(f"Original position: {car['x_position']}.")
-if car['speed'] == 'slow':
-    x_increment = 1
-elif car['speed'] == 'fast':
-    x_increment = 3
-elif car['speed'] == 'very fast':
-    x_increment = 4
+# car = {'x_position': 0, 'y_position': 30, 'speed': 'fast'}
+# print(f"Original position: {car['x_position']}.")
+# if car['speed'] == 'slow':
+#     x_increment = 1
+# elif car['speed'] == 'fast':
+#     x_increment = 3
+# elif car['speed'] == 'very fast':
+#     x_increment = 4
+# else:
+#     x_increment = 2
+# car['x_position'] = car['x_position'] + x_increment
+# print(f"New car's position: {car['x_position']}")
+
+
+
+plane = {'x_position': 0, 'y_position': 40, 'speed': 'very fast'}
+print(f"Original position: {plane['x_position']}")
+
+if plane['speed'] == 'slow':
+    x_increment = 10
+elif plane['speed'] == 'medium':
+    x_increment = 30
+elif plane['speed'] == 'very fast':
+    x_increment = 60
 else:
-    x_increment = 2
-car['x_position'] = car['x_position'] + x_increment
-print(f"New car's position: {car['x_position']}")
+    x_increment = 40
+plane['x_position'] = plane['x_position'] + x_increment
+print(f"New position: {plane['x_position']}")
