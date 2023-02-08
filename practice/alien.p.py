@@ -30,4 +30,9 @@ print(alien_0)
 
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
+alien_0['shape'] = 'oval'
+alien_0['size'] = 'small'
+alien_0['body'] = 'thin'
+alien_0['mind'] = 'smart'
+alien_0['weapon'] = 'laser'
 print(alien_0)
