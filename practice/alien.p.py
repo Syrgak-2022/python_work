@@ -64,6 +64,8 @@ del alien_0['body']
 print(alien_0)
 del alien_0['color']
 print(alien_0)
+body_value = alien_0.get('body', 'No body value assigned')
+print(body_value)
 
 
 
