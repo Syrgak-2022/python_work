@@ -49,6 +49,23 @@
 # print(alien_0)
 
 
+# Удаление пар "ключ-значение"
+alien_0 = {}
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+alien_0['size'] = 'small'
+alien_0['shape'] = 'oval'
+alien_0['body'] = 'thin'
+alien_0['color'] = 'red'
+alien_0['points'] = '10'
+alien_0['size'] = 'big'
+print(alien_0)
+del alien_0['body']
+print(alien_0)
+del alien_0['color']
+print(alien_0)
+
+
 
 
 # alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'fast'}
@@ -84,16 +101,16 @@
 
 
 
-plane = {'x_position': 0, 'y_position': 40, 'speed': 'very fast'}
-print(f"Original position: {plane['x_position']}")
-
-if plane['speed'] == 'slow':
-    x_increment = 10
-elif plane['speed'] == 'medium':
-    x_increment = 30
-elif plane['speed'] == 'very fast':
-    x_increment = 60
-else:
-    x_increment = 40
-plane['x_position'] = plane['x_position'] + x_increment
-print(f"New position: {plane['x_position']}")
+# plane = {'x_position': 0, 'y_position': 40, 'speed': 'very fast'}
+# print(f"Original position: {plane['x_position']}")
+#
+# if plane['speed'] == 'slow':
+#     x_increment = 10
+# elif plane['speed'] == 'medium':
+#     x_increment = 30
+# elif plane['speed'] == 'very fast':
+#     x_increment = 60
+# else:
+#     x_increment = 40
+# plane['x_position'] = plane['x_position'] + x_increment
+# print(f"New position: {plane['x_position']}")
