@@ -48,19 +48,36 @@
 # alien_0['size'] = 'big'
 # print(alien_0)
 
-alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'fast'}
-print(f"Original position {alien_0['x_position']}")
 
-# Пришелец перемещается вправо
-# Вычисляем величину смещения на основании текущей скорости
-if alien_0['speed'] == 'slow':
+
+
+# alien_0 = {'x_position': 0, 'y_position': 25, 'speed': 'fast'}
+# print(f"Original position {alien_0['x_position']}")
+#
+# # Пришелец перемещается вправо
+# # Вычисляем величину смещения на основании текущей скорости
+# if alien_0['speed'] == 'slow':
+#     x_increment = 1
+# elif alien_0['speed'] == 'medium':
+#     x_increment = 2
+# else:
+#     x_increment = 3   # прищелец двигается быстро
+#
+# #Новая позиция равна сумме старой позиции и приращения
+# alien_0['x_position'] = alien_0['x_position'] + x_increment
+# print(f"New position: {alien_0['x_position']}")
+
+
+
+car = {'x_position': 0, 'y_position': 30, 'speed': 'fast'}
+print(f"Original position: {car['x_position']}.")
+if car['speed'] == 'slow':
     x_increment = 1
-elif alien_0['speed'] == 'medium':
-    x_increment = 2
+elif car['speed'] == 'fast':
+    x_increment = 3
+elif car['speed'] == 'very fast':
+    x_increment = 4
 else:
-    x_increment = 3   # прищелец двигается быстро
-
-#Новая позиция равна сумме старой позиции и приращения
-alien_0['x_position'] = alien_0['x_position'] + x_increment
-print(f"New position: {alien_0['x_position']}")
-
+    x_increment = 2
+car['x_position'] = car['x_position'] + x_increment
+print(f"New car's position: {car['x_position']}")
