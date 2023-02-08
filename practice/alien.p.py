@@ -25,14 +25,25 @@
 # print(f"You shoot down a {new_alien_2} spaceship!")
 
 
-alien_0 = {'color': 'green', 'points': 5}
-print(alien_0)
+# alien_0 = {'color': 'green', 'points': 5}
+# print(alien_0)
+#
+# alien_0['x_position'] = 0
+# alien_0['y_position'] = 25
+# alien_0['shape'] = 'oval'
+# alien_0['size'] = 'small'
+# alien_0['body'] = 'thin'
+# alien_0['mind'] = 'smart'
+# alien_0['weapon'] = 'laser'
+# print(alien_0)
 
-alien_0['x_position'] = 0
-alien_0['y_position'] = 25
-alien_0['shape'] = 'oval'
-alien_0['size'] = 'small'
-alien_0['body'] = 'thin'
-alien_0['mind'] = 'smart'
-alien_0['weapon'] = 'laser'
-print(alien_0)
+# alien_0 = {}
+# alien_0['color'] = 'green'
+# alien_0['points'] = 5
+# alien_0['size'] = 'small'
+# alien_0['shape'] = 'oval'
+# alien_0['body'] = 'thin'
+# alien_0['color'] = 'red'
+# alien_0['points'] = '10'
+# alien_0['size'] = 'big'
+# print(alien_0)
