@@ -142,3 +142,19 @@
 #
 # for name, numbers in favourite_numbers.items():
 #     print(f"{name} {numbers}")
+
+
+rivers = {
+    'amazonka': 'south america',
+    'nile': 'egypt',
+    'yanzy': 'china',
+    }
+river = ['amazonka', 'nile', 'yanzy']
+for name in rivers.keys():
+    print(name.title())
+    if name in river:
+        country = rivers[name]
+        print(f"\tThe {name.title()} through {country.title()}")
+for river, country in rivers.items():
+    print(river)
+    print(country)
