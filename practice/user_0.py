@@ -144,17 +144,34 @@
 #     print(f"{name} {numbers}")
 
 
-rivers = {
-    'amazonka': 'south america',
-    'nile': 'egypt',
-    'yanzy': 'china',
+# rivers = {
+#     'amazonka': 'south america',
+#     'nile': 'egypt',
+#     'yanzy': 'china',
+#     }
+# river = ['amazonka', 'nile', 'yanzy']
+# for name in rivers.keys():
+#     print(name.title())
+#     if name in river:
+#         country = rivers[name]
+#         print(f"\tThe {name.title()} through {country.title()}")
+# for river, country in rivers.items():
+#     print(river)
+#     print(country)
+
+
+
+favourite_languages = {
+    'syrgak': 'python',
+    'botya': 'c++',
+    'sancho': 'java',
+    'eldo': 'c#',
+    'tima': 'dolphin'
     }
-river = ['amazonka', 'nile', 'yanzy']
-for name in rivers.keys():
+users = ['syrgak', 'tima', 'sancho']
+for name in favourite_languages.keys():
     print(name.title())
-    if name in river:
-        country = rivers[name]
-        print(f"\tThe {name.title()} through {country.title()}")
-for river, country in rivers.items():
-    print(river)
-    print(country)
+    if name in users:
+        print("Thank you dor poll")
+    else:
+        print("Please, poll!")
