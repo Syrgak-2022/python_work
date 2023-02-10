@@ -104,12 +104,41 @@
 #         print(f"\t{name.title()} {paint}")
 
 
-favourite_paints = {
-    'syrgak': 'red',
-    'botya': 'blue',
-    'sancho': 'white',
-    'eldo': 'green',
-    'tima': 'black'
-    }
-for paint in favourite_paints.values():
-    print(paint)
+# favourite_paints = {
+#     'syrgak': 'red',
+#     'botya': 'blue',
+#     'sancho': 'white',
+#     'eldo': 'green',
+#     'tima': 'black'
+#     }
+# for paint in favourite_paints.values():
+#     print(paint)
+
+
+
+
+# favourite_numbers = {
+#     'syrgak': 8,
+#     'botya': 6,
+#     'sancho': 4,
+#     'eldo': 2,
+#     'sezima': 9,
+#     'arushka': 7,
+#     'aselya': 5,
+#     'anara': 3,
+#     'rysya': 1,
+#     }
+# # numbers = favourite_numbers['syrgak']
+# # print(f"Syrgak's favourite number is: {numbers}")
+# #
+# # numbers = favourite_numbers['botya']
+# # print(f"\nBotya's favourite number is: {numbers}")
+# #
+# # numbers = favourite_numbers['sancho']
+# # print(f"\nSancho's favourite number is: {numbers}")
+# #
+# # numbers = favourite_numbers['eldo']
+# # print(f"\nEldo's favourite number is: {numbers}")
+#
+# for name, numbers in favourite_numbers.items():
+#     print(f"{name} {numbers}")
