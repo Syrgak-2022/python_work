@@ -50,22 +50,22 @@
 
 
 # Удаление пар "ключ-значение"
-alien_0 = {}
-alien_0['color'] = 'green'
-alien_0['points'] = 5
-alien_0['size'] = 'small'
-alien_0['shape'] = 'oval'
-alien_0['body'] = 'thin'
-alien_0['color'] = 'red'
-alien_0['points'] = '10'
-alien_0['size'] = 'big'
-print(alien_0)
-del alien_0['body']
-print(alien_0)
-del alien_0['color']
-print(alien_0)
-body_value = alien_0.get('body', 'No body value assigned')
-print(body_value)
+# alien_0 = {}
+# alien_0['color'] = 'green'
+# alien_0['points'] = 5
+# alien_0['size'] = 'small'
+# alien_0['shape'] = 'oval'
+# alien_0['body'] = 'thin'
+# alien_0['color'] = 'red'
+# alien_0['points'] = '10'
+# alien_0['size'] = 'big'
+# print(alien_0)
+# del alien_0['body']
+# print(alien_0)
+# del alien_0['color']
+# print(alien_0)
+# body_value = alien_0.get('body', 'No body value assigned')
+# print(body_value)
 
 
 
@@ -116,3 +116,61 @@ print(body_value)
 #     x_increment = 40
 # plane['x_position'] = plane['x_position'] + x_increment
 # print(f"New position: {plane['x_position']}")
+
+
+# alien_0 = {'color': 'red', 'points': 5}
+# alien_1 = {'color': 'blue', 'points': 10}
+# alien_2 = {'color': 'green', 'points': 15}
+# aliens = [alien_0, alien_1, alien_2]
+# for alien in aliens:
+#     print(alien)
+
+
+# aliens = []
+# for alien_number in range(30):
+#     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+#     aliens.append(new_alien)
+#
+# for alien in aliens[:5]:
+#     print(alien)
+# print("...")
+# print(f"Total number of aliens: {len(aliens)}")
+
+#
+# robots = []
+# for robot_number in range(50):
+#     new_robot = {'color': 'metallic', 'points': 10, 'speed': 'slow'}
+#     robots.append(new_robot)
+# for robot in robots[:10]:
+#     print(robot)
+# print("...")
+# print(f"Total number of robots: {len(robots)}")
+
+
+# zombies = []
+# for zombie_number in range(100):
+#     new_zombie = {'color': 'green', 'points': 10}
+#     zombies.append(new_zombie)
+# for zombie in zombies[:10]:
+#     print(zombie)
+# print("...")
+# print(f"Total number of zombie: {len(zombies)}")
+
+
+zombies = []
+for zombie_number in range(0, 30):
+    new_zombie = {'color': 'green', 'points': 5, 'speed': 'slow'}
+    zombies.append(new_zombie)
+
+for zombie in zombies[0:5]:
+    if zombie['color'] == 'green':
+        zombie['color'] = 'yellow'
+        zombie['points'] = 10
+        zombie['speed'] = 'medium'
+    if zombie['color'] == 'yellow':
+        zombie['color'] = 'red'
+        zombie['points'] = 15
+        zombie['speed'] = 'fast'
+for zombie in zombies[0:10]:
+    print(zombie)
+print(f"Total number of zombies: {len(zombies)}")
