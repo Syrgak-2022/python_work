@@ -33,3 +33,24 @@
 # for key, value in console.items():
 #     print(f"\nKey: {key}")
 #     print(f"Value: {value}")
+
+
+
+console = {
+    'name': 'xbox',
+    'year': 2023,
+    'paint': 'black',
+    'gamepass': '12 months',
+    'guarantee': 'full',
+    }
+for key in console.keys():
+    print(key)
+
+car = {
+    'model': 'bmw',
+    'year': 2022,
+    'paint': 'black',
+    'all_weels': 'full'
+    }
+for key in car.keys():
+    print(key)
