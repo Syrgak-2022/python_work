@@ -1,3 +1,5 @@
+# метод .items()
+
 # user_0 = {
 #     'username': 'simankulov',
 #     'first_name': 'syrgak',
@@ -21,14 +23,13 @@
 
 
 
-
-console = {
-    'name': 'xbox',
-    'year': 2023,
-    'paint': 'black',
-    'gamepass': '12 months',
-    'guarantee': 'full',
-    }
-for key, value in console.items():
-    print(f"\nKey: {key}")
-    print(f"Value: {value}")
+# console = {
+#     'name': 'xbox',
+#     'year': 2023,
+#     'paint': 'black',
+#     'gamepass': '12 months',
+#     'guarantee': 'full',
+#     }
+# for key, value in console.items():
+#     print(f"\nKey: {key}")
+#     print(f"Value: {value}")
