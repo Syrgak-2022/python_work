@@ -89,3 +89,16 @@
 
 
 
+favourite_paints = {
+    'syrgak': 'red',
+    'botya': 'blue',
+    'sancho': 'white',
+    'eldo': 'green',
+    'tima': 'black'
+    }
+names = ['sancho', 'tima']
+for name in favourite_paints.keys():
+    print(name.title())
+    if name in names:
+        paint = favourite_paints[name]
+        print(f"\t{name.title()} {paint}")
