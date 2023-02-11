@@ -19,6 +19,25 @@
 
 
 
+brothers = {
+    'isancho': {
+        'first': 'sancho',
+        'last': 'imankulov',
+        'location': 'bishkek',
+    },
+    'botyaim': {
+        'first': 'botya',
+        'last': 'imankulov',
+        'location': 'bishkek',
+    },
+}
+for user_name, user_info in brothers.items():
+    print(f"Username: {user_name}")
+    fullname = f"{user_info['first']} {user_info['last']}"
+    location = user_info['location']
+    print(f"\tFull name: {fullname.title()}")
+    print(f"\tLocation: {location.title()}")
+
 
 
 
