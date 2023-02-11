@@ -76,12 +76,25 @@
 # print(car == 'audi')
 
 
-favourite_cars = {
-    'syrgak': ['bmw', 'dodge'],
-    'botya': ['audi', 'kia'],
-    'sancho': ['haval', 'porsche', 'nissan']
-    }
-for name, cars in favourite_cars.items():
-    print(f"Hi, {name.title()}, I see you favourite cars:")
-    for car in cars:
-        print(f"\t{car}")
+# favourite_cars = {
+#     'syrgak': ['bmw', 'dodge'],
+#     'botya': ['audi', 'kia'],
+#     'sancho': ['haval', 'porsche', 'nissan']
+#     }
+# for name, cars in favourite_cars.items():
+#     print(f"Hi, {name.title()}, I see you favourite cars:")
+#     for car in cars:
+#         print(f"\t{car}")
+
+
+
+
+# favourite_games = {
+#     'syrgak': ['halo', 'gears of war'],
+#     'eldo': ['forza horizon', 'it takes two'],
+#     'tima': ['call of duty', 'bf2042']
+#     }
+# for name, games in favourite_games.items():
+#     print(f"Hi, {name.title()}, I see your fvourite games:")
+#     for game in games:
+#         print(f"\t{game.title()}")
