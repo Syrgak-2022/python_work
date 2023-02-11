@@ -68,9 +68,20 @@
 #     print(f"{car} included")
 
 
-car = 'subaru'
-print("Is car == 'subaru'? I predict True.")
-print(car == 'subaru')
+# car = 'subaru'
+# print("Is car == 'subaru'? I predict True.")
+# print(car == 'subaru')
+#
+# print("\nIs car == 'audi'? I predict False")
+# print(car == 'audi')
 
-print("\nIs car == 'audi'? I predict False")
-print(car == 'audi')
+
+favourite_cars = {
+    'syrgak': ['bmw', 'dodge'],
+    'botya': ['audi', 'kia'],
+    'sancho': ['haval', 'porsche', 'nissan']
+    }
+for name, cars in favourite_cars.items():
+    print(f"Hi, {name.title()}, I see you favourite cars:")
+    for car in cars:
+        print(f"\t{car}")
