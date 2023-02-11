@@ -26,11 +26,21 @@
 
 
 
-available_topping = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
-requested_topping = ['mushrooms', 'french fries', 'extra cheese']
-for requested_topping in requested_topping:
-    if requested_topping in available_topping:
-        print(f"Adding {requested_topping}.")
-    else:
-        print(f"Sorry, we don't have {requested_topping}.")
-print("\nFinished your making pizza!")
+# available_topping = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+# requested_topping = ['mushrooms', 'french fries', 'extra cheese']
+# for requested_topping in requested_topping:
+#     if requested_topping in available_topping:
+#         print(f"Adding {requested_topping}.")
+#     else:
+#         print(f"Sorry, we don't have {requested_topping}.")
+# print("\nFinished your making pizza!")
+
+
+pizza = {
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'extra cheese']
+    }
+print(f"You ordered a {pizza['crust']} - crust pizza "
+"with the following toppings:")
+for topping in pizza['toppings']:
+    print("\t" + topping)
