@@ -36,11 +36,69 @@
 # print("\nFinished your making pizza!")
 
 
-pizza = {
-    'crust': 'thick',
-    'toppings': ['mushrooms', 'extra cheese']
-    }
-print(f"You ordered a {pizza['crust']} - crust pizza "
-"with the following toppings:")
-for topping in pizza['toppings']:
-    print("\t" + topping)
+# pizza = {
+#     'crust': 'thick',
+#     'toppings': ['mushrooms', 'extra cheese']
+#     }
+# print(f"You ordered a {pizza['crust']} - crust pizza "
+# "with the following toppings:")
+# for topping in pizza['toppings']:
+#     print("\t" + topping)
+
+
+# prompt = "\nPlease, enter the toppings to your pizza:"
+# prompt += "\nEnter 'quit' for exit. "
+# while True:
+#     toppings = input(prompt)
+#     if toppings == 'quit':
+#         break
+#     else:
+#         print(f"Your topping added to your order!")
+
+
+# prompt = "\nPlease, choose parts to your order:"
+# prompt += "\nEnter 'quit' for exit. "
+# while True:
+#     part = input(prompt)
+#     if part == 'quit':
+#         break
+#     else:
+#         print(f"Chosen part added to your order!")
+
+
+
+# prompt = "\nPlease, choose the game for your library:"
+# prompt += "\nEnter 'quit' for exit. "
+# while True:
+#     game = input(prompt)
+#     if game == 'quit':
+#         break
+#     else:
+#         print(f"Your game added to your library!")
+
+
+# age = input("Please, how old are you? ")
+# age = int(age)
+# if age <= 3:
+#     print("Your ticket is free!")
+# if age > 3 and age <= 12:
+#     print("Your ticket cost $10.")
+# else:
+#     print("Your ticket cost $15.")
+
+
+# infinite cycle
+# x = 1
+# while x < 5:
+#     print(x)
+
+
+prompt = "\nPlease, add your files:"
+prompt += "\nEnter 'quit' for exit. "
+active = True
+while active:
+    file = input(prompt)
+    if file == 'quit':
+        break
+    else:
+        print(f"Your file added!")
