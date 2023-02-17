@@ -93,12 +93,23 @@
 #     print(x)
 
 
-prompt = "\nPlease, add your files:"
-prompt += "\nEnter 'quit' for exit. "
-active = True
-while active:
-    file = input(prompt)
-    if file == 'quit':
+# prompt = "\nPlease, add your files:"
+# prompt += "\nEnter 'quit' for exit. "
+# active = True
+# while active:
+#     file = input(prompt)
+#     if file == 'quit':
+#         break
+#     else:
+#         print(f"Your file added!")
+
+
+
+prompt = "\nPlease, choose your favourite heroes:"
+prompt += "\nEnter 'quit' for exit from this programm. "
+while True:
+    heroes = input(prompt)
+    if heroes == 'quit':
         break
     else:
-        print(f"Your file added!")
+        print(f"Your hero added to your favourite lists of heroes!")
