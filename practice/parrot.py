@@ -78,9 +78,35 @@
 #     print("\nПрошу прощения, Вам придется подождать!")
 
 
-number = input("Please, enter your number: ")
-number = int(number)
-if number % 10 == 0:
-    print("\nThis number кратно 10!")
-else:
-    print("\nThis number НЕ кратно 10!")
+# number = input("Please, enter your number: ")
+# number = int(number)
+# if number % 10 == 0:
+#     print("\nThis number кратно 10!")
+# else:
+#     print("\nThis number НЕ кратно 10!")
+
+
+
+# current_people = 200
+# while current_people <= 500:
+#     print(current_people)
+#     current_people += 5
+
+
+# prompt = input("Скажи мне что-нибудь, и я это смогу повторить тебе: ")
+# prompt += "\nНажми 'выход' чтобы выйти из программы."
+# messages = ""
+# while messages != 'выход':
+#     messages = input(prompt)
+#     print(messages)
+
+
+prompt = input("Скажи мне что-нибудь, и я это смогу повторить тебе: ")
+prompt += "\nНажми 'выход' чтобы выйти из программы."
+active = True
+while active:
+    message = input(prompt)
+    if message == 'выход':
+        active = False
+    else:
+        print(message)
