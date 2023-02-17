@@ -66,4 +66,21 @@
 # else:
 #     print(f"\nThis number {number} is odd.")
 
+# message = input("Please, what car you want for rent? ")
+# print(f"\nLet me see if I can find a {message}")
 
+
+# table = input("Сколько мест Вы хотите забронировать? ")
+# table = int(table)
+# if table <= 8:
+#     print("\nВаш столик готов!")
+# else:
+#     print("\nПрошу прощения, Вам придется подождать!")
+
+
+number = input("Please, enter your number: ")
+number = int(number)
+if number % 10 == 0:
+    print("\nThis number кратно 10!")
+else:
+    print("\nThis number НЕ кратно 10!")
